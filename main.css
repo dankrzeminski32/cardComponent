@@ -1,0 +1,36 @@
+:root {
+  --softblue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --Verydarkblue1: hsl(217, 54%, 11%);
+  --Verydarkblue2: hsl(216, 50%, 16%);
+  --Verydarkblue3: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  background-color: var(--Verydarkblue1);
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  background-color: var(--Verydarkblue2);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.cube {
+  border-radius: 10px;
+}
