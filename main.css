@@ -83,14 +83,30 @@ h4 {
   padding: 0.3rem;
   justify-content: space-evenly;
   align-items: center;
+  width: auto;
+}
+
+#clock1 {
+  color: var(--softblue);
 }
 
 .container-cardfooter .image {
   border: 0.1rem solid white;
   border-radius: 100px;
+  margin-right: 1rem;
 }
 
 #jules {
   color: var(--white);
   font-weight: 600;
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .card {
+    width: 17rem;
+  }
+  #clock1 {
+    font-size: 1rem;
+  }
 }
