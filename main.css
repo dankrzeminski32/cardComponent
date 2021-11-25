@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
 :root {
   --softblue: hsl(215, 51%, 70%);
   --cyan: hsl(178, 100%, 50%);
@@ -13,6 +15,22 @@ body {
   box-sizing: border-box;
   font-size: 18px;
   background-color: var(--Verydarkblue1);
+  line-height: 1.3;
+  font-family: Outfit;
+}
+
+h3 {
+  margin-bottom: 0;
+  font-weight: 600;
+  color: var(--white);
+  /* font-family: Outfit; */
+}
+
+h4 {
+  margin: 1rem 0rem;
+  font-weight: 400;
+  color: var(--softblue);
+  /* font-family: Outfit; */
 }
 
 .container {
@@ -33,4 +51,23 @@ body {
 
 .cube {
   border-radius: 10px;
+}
+
+.container-etherium {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+}
+
+#ETH {
+  color: var(--cyan);
+}
+
+#clock {
+  color: var(--softblue);
+}
+
+.line {
+  color: var(--Verydarkblue3);
+  width: 100%;
 }
