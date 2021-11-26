@@ -51,6 +51,8 @@ h4 {
   background-color: var(--Verydarkblue2);
   padding: 1.5rem;
   border-radius: 10px;
+  box-shadow: 15px 20px 15px 5px rgba(0, 0, 0, 0.3),
+    -15px 20px 15px 5px rgba(0, 0, 0, 0.3);
 }
 
 .cube {
@@ -60,8 +62,21 @@ h4 {
 .container-etherium {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 0rem;
+  padding: 0.5rem 0rem;
   align-items: center;
+}
+
+.inner-etherium {
+  display: flex;
+}
+
+.inner-clock {
+  display: flex;
+}
+
+.inner-etherium span,
+.inner-clock span {
+  margin-left: 0.5rem;
 }
 
 #ETH {
@@ -75,13 +90,14 @@ h4 {
 .line {
   color: var(--Verydarkblue3);
   width: 100%;
+  margin-bottom: 1rem;
 }
 
 .container-cardfooter {
   display: flex;
   height: 2rem;
   padding: 0.3rem;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
   width: auto;
 }
