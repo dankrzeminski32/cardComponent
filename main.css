@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
 
 :root {
-  --softblue: hsl(215, 51%, 70%);
+  --softblue: hsl(215, 20%, 49%);
   --cyan: hsl(178, 100%, 50%);
   --Verydarkblue1: hsl(217, 54%, 11%);
   --Verydarkblue2: hsl(216, 50%, 16%);
@@ -27,14 +27,11 @@ h3 {
   margin-bottom: 0;
   font-weight: 600;
   color: var(--white);
-  /* font-family: Outfit; */
 }
 
-h4 {
+.caption {
   margin: 1rem 0rem;
-  font-weight: 400;
   color: var(--softblue);
-  /* font-family: Outfit; */
 }
 
 .container {
@@ -47,23 +44,38 @@ h4 {
 .card {
   display: flex;
   flex-direction: column;
-  width: 20rem;
+  width: 19rem;
   background-color: var(--Verydarkblue2);
   padding: 1.5rem;
-  border-radius: 10px;
+  border-radius: 1.4rem;
   box-shadow: 15px 20px 15px 5px rgba(0, 0, 0, 0.3),
     -15px 20px 15px 5px rgba(0, 0, 0, 0.3);
 }
 
+.username:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.image-container {
+  background-image: url(images/icon-view.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-container:hover {
+  background-color: var(--cyan);
+}
+
 .cube {
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 .container-etherium {
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem 0rem;
   align-items: center;
+  padding: 0.5rem 0rem;
 }
 
 .inner-etherium {
@@ -81,16 +93,23 @@ h4 {
 
 #ETH {
   color: var(--cyan);
+  font-size: 1rem;
 }
 
 #clock {
   color: var(--softblue);
+  font-size: 0.9rem;
 }
 
 .line {
   color: var(--Verydarkblue3);
   width: 100%;
   margin-bottom: 1rem;
+}
+
+#jules:hover {
+  color: var(--cyan);
+  cursor: pointer;
 }
 
 .container-cardfooter {
