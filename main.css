@@ -57,18 +57,43 @@ h3 {
   cursor: pointer;
 }
 
-.image-container {
+.card__imgwrapper {
   background-image: url(images/icon-view.svg);
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.image-container:hover {
-  background-color: var(--cyan);
-}
-
-.cube {
   border-radius: 1rem;
+  position: relative;
+}
+
+.card__img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.3s ease;
+  opacity: 1;
+}
+
+.card__imgwrapper:hover .card__img {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.card__eye {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.card__imgwrapper:hover .card__eye {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.card__img:hover {
+  z-index: -1;
 }
 
 .container-etherium {
