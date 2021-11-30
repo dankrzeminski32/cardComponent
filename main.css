@@ -59,6 +59,7 @@ h3 {
 
 .card__imgwrapper {
   background-image: url(images/icon-view.svg);
+  background-color: var(--cyan);
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 1rem;
@@ -69,8 +70,9 @@ h3 {
   display: block;
   width: 100%;
   height: auto;
-  transition: 0.3s ease;
+  transition: 0.1s ease;
   opacity: 1;
+  border-radius: 1rem;
 }
 
 .card__imgwrapper:hover .card__img {
