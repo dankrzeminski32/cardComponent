@@ -1,13 +1,34 @@
-<!-- PROJECT LOGO -->
-<h3 align="center">NFT Card Component</h3>
+# Frontend Mentor - NFT preview card component solution
 
-  <p align="center">
-    A webpage displaying a NFT Card Component, webpage is responsive on both desktop and mobile devices. 
-    <br />
-  <br />
-    <a href="https://github.com/dankrzeminski32/cardComponent"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://dankrzeminski32.github.io/cardComponent/">View Demo</a>
-  </p>
-</div>
+This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+- [My process](#my-process)
+  - [Built with](#built-with)
+
+**Note: Delete this note and update the table of contents based on what sections you keep.**
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
+
+### Links
+
+- Solution URL: [https://github.com/dankrzeminski32/cardComponent]
+- Live Site URL: [https://dankrzeminski32.github.io/cardComponent/]
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
