@@ -19,8 +19,6 @@ Users should be able to:
 - Solution URL: [https://github.com/dankrzeminski32/cardComponent]
 - Live Site URL: [https://dankrzeminski32.github.io/cardComponent/]
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
